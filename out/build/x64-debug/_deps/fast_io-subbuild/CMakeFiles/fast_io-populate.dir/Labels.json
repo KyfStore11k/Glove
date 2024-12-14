@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/dev/Glove/out/build/x64-debug/_deps/fast_io-subbuild/CMakeFiles/fast_io-populate"
+		},
+		{
+			"file" : "D:/dev/Glove/out/build/x64-debug/_deps/fast_io-subbuild/CMakeFiles/fast_io-populate.rule"
+		},
+		{
+			"file" : "D:/dev/Glove/out/build/x64-debug/_deps/fast_io-subbuild/CMakeFiles/fast_io-populate-complete.rule"
+		},
+		{
+			"file" : "D:/dev/Glove/out/build/x64-debug/_deps/fast_io-subbuild/fast_io-populate-prefix/src/fast_io-populate-stamp/fast_io-populate-build.rule"
+		},
+		{
+			"file" : "D:/dev/Glove/out/build/x64-debug/_deps/fast_io-subbuild/fast_io-populate-prefix/src/fast_io-populate-stamp/fast_io-populate-configure.rule"
+		},
+		{
+			"file" : "D:/dev/Glove/out/build/x64-debug/_deps/fast_io-subbuild/fast_io-populate-prefix/src/fast_io-populate-stamp/fast_io-populate-download.rule"
+		},
+		{
+			"file" : "D:/dev/Glove/out/build/x64-debug/_deps/fast_io-subbuild/fast_io-populate-prefix/src/fast_io-populate-stamp/fast_io-populate-install.rule"
+		},
+		{
+			"file" : "D:/dev/Glove/out/build/x64-debug/_deps/fast_io-subbuild/fast_io-populate-prefix/src/fast_io-populate-stamp/fast_io-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/dev/Glove/out/build/x64-debug/_deps/fast_io-subbuild/fast_io-populate-prefix/src/fast_io-populate-stamp/fast_io-populate-patch.rule"
+		},
+		{
+			"file" : "D:/dev/Glove/out/build/x64-debug/_deps/fast_io-subbuild/fast_io-populate-prefix/src/fast_io-populate-stamp/fast_io-populate-test.rule"
+		},
+		{
+			"file" : "D:/dev/Glove/out/build/x64-debug/_deps/fast_io-subbuild/fast_io-populate-prefix/src/fast_io-populate-stamp/fast_io-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fast_io-populate"
+		],
+		"name" : "fast_io-populate"
+	}
+}

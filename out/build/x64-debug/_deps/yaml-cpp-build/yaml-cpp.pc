@@ -1,0 +1,11 @@
+prefix=D:/dev/Glove/out/install/x64-debug
+exec_prefix=${prefix}
+includedir=D:/dev/Glove/out/install/x64-debug/include
+libdir=D:/dev/Glove/out/install/x64-debug/lib
+
+Name: Yaml-cpp
+Description: A YAML parser and emitter for C++
+Version: 0.8.0
+Requires:
+Libs: -L${libdir} -lyaml-cpp
+Cflags: -I${includedir}

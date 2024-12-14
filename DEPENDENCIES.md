@@ -1,0 +1,7 @@
+1. spdlog    - [External](https://https://github.com/gabime/spdlog.git)
+2. fast_io   - [External](https://github.com/cppfastio/fast_io.git)
+3. yaml-cpp  - [External](https://github.com/jbeder/yaml-cpp.git)
+4. zlib      - [External](https://github.com/madler/zlib.git)
+5. eventpp   - [External](https://github.com/wqking/eventpp)
+6. libcurl   - [External](https://curl.se/download.html)
+7. ctime     - Internal ( NO LINK, PART OF STANDARD C/C++ )

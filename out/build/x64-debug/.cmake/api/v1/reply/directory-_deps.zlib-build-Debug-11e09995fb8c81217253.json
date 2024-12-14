@@ -1,0 +1,119 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/x64-debug/_deps/zlib-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 188,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 191,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 194,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "D:/dev/Glove/out/install/x64-debug/lib",
+			"paths" : 
+			[
+				"_deps/zlib-build/zlibd.lib"
+			],
+			"targetId" : "zlib::@c9556b0b6bf47963f9da",
+			"targetIndex" : 38,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "D:/dev/Glove/out/install/x64-debug/bin",
+			"paths" : 
+			[
+				"_deps/zlib-build/zlibd.dll"
+			],
+			"targetId" : "zlib::@c9556b0b6bf47963f9da",
+			"targetIndex" : 38,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "D:/dev/Glove/out/install/x64-debug/lib",
+			"paths" : 
+			[
+				"_deps/zlib-build/zlibstaticd.lib"
+			],
+			"targetId" : "zlibstatic::@c9556b0b6bf47963f9da",
+			"targetIndex" : 39,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "D:/dev/Glove/out/install/x64-debug/include",
+			"paths" : 
+			[
+				"out/build/x64-debug/_deps/zlib-build/zconf.h",
+				"out/build/x64-debug/_deps/zlib-src/zlib.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "D:/dev/Glove/out/install/x64-debug/share/man/man3",
+			"paths" : 
+			[
+				"out/build/x64-debug/_deps/zlib-src/zlib.3"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "D:/dev/Glove/out/install/x64-debug/share/pkgconfig",
+			"paths" : 
+			[
+				"out/build/x64-debug/_deps/zlib-build/zlib.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/zlib-build",
+		"source" : "out/build/x64-debug/_deps/zlib-src"
+	}
+}

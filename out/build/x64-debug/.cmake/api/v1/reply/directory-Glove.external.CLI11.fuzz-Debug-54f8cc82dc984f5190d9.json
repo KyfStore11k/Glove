@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Glove/external/CLI11/fuzz",
+		"source" : "Glove/external/CLI11/fuzz"
+	}
+}
