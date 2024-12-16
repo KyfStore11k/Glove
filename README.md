@@ -20,31 +20,31 @@ To install Glove, download the latest release from the [GitHub releases page](ht
 ---
 
 ## Commands
-Here’s how you can use Glove:
+Hereâ€™s how you can use Glove:
 
 1. Create a new project with:
 
-   `glove -create -name yourproject -vscode`
+   `glove --create --name yourproject --vscode`
    
-   `glove -create -name yourproject -msvs`
+   `glove --create --name yourproject --msvs`
 
 2. Compile your project:
 
-   `glove -compile -debug -project yourproject.gloveconf`
+   `glove --compile --debug --project yourproject.gloveconf`
    
-   `glove -compile -release -project yourproject.gloveconf`
+   `glove --compile --release --project yourproject.gloveconf`
    
-   `glove -compile -dist -project yourproject.gloveconf`
+   `glove --compile --dist --project yourproject.gloveconf`
 
 3. Reload dependencies:
 
-   `glove -reload -dependencies`
+   `glove --reload --dependencies`
 
 ---
 
 ## Configuration
 ### Project Configuration
-The project configuration is defined in the `glove.config` file. Example:
+The project configuration is defined in the `yourproject.gloveconf` file. Example:
 
 ```gloveconf
 project:
@@ -52,12 +52,6 @@ project:
   author: "Your Name"
   description: "A short description of your project"
   version: 1.0.0
-
-compiler:
-  type: "GCC"
-  flags:
-    - "-O2"
-    - "-Wall"
 
 folder_struct:
   include: "src/include"
@@ -67,6 +61,23 @@ dependencies:
   - name: "example-lib"
     version: "1.0.0"
     repository: "https://github.com/example/example-lib"
+```
+This file is the main Glove configuration for that project. Example:
+
+```config
+compiler:
+    name: "g++"
+    flags:
+      - "-Wall"
+      - "-std=c++17"
+
+dependencies:
+  - name: "dependency1"
+    version: "1.2.3"
+    repository: "https://example.com/dependency1"
+  - name: "dependency2"
+    version: "2.0.1"
+    repository: "https://example.com/dependency2"
 ```
 
 ---
@@ -85,7 +96,7 @@ soft-dependencies: []
 ---
 
 ## Folder Structure
-When creating a project, Glove generates the following structure:
+When creating a project for VSCode, Glove generates the following structure:
 
 ```plaintext
 .VSCode/
@@ -97,6 +108,21 @@ SRC/
 GLOVE/
   yourproject.gloveconf
   glove.config
+```
+When generating for MSVS (Microsoft Visual Studio), it will generate this file structure:
+
+```plaintext
+YourProject/
+  .vs/
+  YourProject.sln
+  YourProject/
+    YourProject.vcxproj
+    YourProject.vcxproj.filters
+    src/
+      main.cpp
+    glove/
+      yourproject.gloveconf
+      glove.config
 ```
 
 ---
