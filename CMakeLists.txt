@@ -63,3 +63,5 @@ find_package(CURL CONFIG REQUIRED)
 target_link_libraries(Glove PRIVATE CURL::libcurl)
 find_path(EVENTPP_INCLUDE_DIR eventpp/eventqueue.h)
 include_directories(${EVENTPP_INCLUDE_DIR})
+
+target_include_directories(Glove PRIVATE ${CMAKE_SOURCE_DIR}/Glove/src)

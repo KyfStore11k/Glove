@@ -1,7 +1,7 @@
 # ninja log v6
 4902	6678	7559057160000000	_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.obj	723269315252acab
 2660	3515	7558469360000000	_deps/zlib-build/CMakeFiles/zlib.dir/uncompr.c.obj	b51a4822071acb84
-78	133	7559058060000000	D:/dev/Glove/out/build/x64-debug/CMakeFiles/cmake.verify_globs	af4a4a7c8440e4d8
+19	51	7560037580000000	D:/dev/Glove/out/build/x64-debug/CMakeFiles/cmake.verify_globs	af4a4a7c8440e4d8
 7616	9933	7559057180000000	_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.obj	542e021e3735437a
 431	2229	7558469340000000	_deps/zlib-build/CMakeFiles/zlib.dir/compress.c.obj	cbd258a2c2030c73
 12758	13388	7559057240000000	_deps/zlib-build/CMakeFiles/zlibstatic.dir/inffast.c.obj	db6fef6e0a6e9116
@@ -76,5 +76,25 @@
 13328	15382	7559057240000000	_deps/spdlog-build/spdlogd.lib	3787e2dfe53ea1ae
 13731	15386	7559057240000000	_deps/zlib-build/zlibstaticd.lib	380da754b0f66d3a
 13374	16356	7559057240000000	_deps/yaml-cpp-build/yaml-cppd.lib	636cc4f033a7fa59
-160	3687	7559058060000000	Glove/CMakeFiles/Glove.dir/src/Core/Core.cpp.obj	1130fa3f67224bdd
-3703	9291	7559058100000000	Glove/Glove.exe	d0cb826531f0d4d0
+1147	22679	7560012500000000	Glove/CMakeFiles/Glove.dir/src/Core/Core.cpp.obj	91446d9b025e611
+3687	9697	7560037600000000	Glove/Glove.exe	3a9c96cdd023c55
+1565	22761	7560012500000000	Glove/CMakeFiles/Glove.dir/src/Core/Logger/Log.cpp.obj	c1192c7682a7f430
+63	3678	7560037580000000	Glove/CMakeFiles/Glove.dir/src/Core/CLITerminal/CLI.cpp.obj	3791b1f21f5e6881
+62	222	7560110780000000	D:/dev/Glove/out/build/x64-debug/CMakeFiles/cmake.verify_globs	af4a4a7c8440e4d8
+269	8074	7560110780000000	Glove/CMakeFiles/Glove.dir/src/Core/CLITerminal/CLI.cpp.obj	3791b1f21f5e6881
+8112	16327	7560110860000000	Glove/Glove.exe	3a9c96cdd023c55
+551	670	7560111720000000	D:/dev/Glove/out/build/x64-debug/CMakeFiles/cmake.verify_globs	af4a4a7c8440e4d8
+32	106	7560112420000000	D:/dev/Glove/out/build/x64-debug/CMakeFiles/cmake.verify_globs	af4a4a7c8440e4d8
+122	5171	7560112420000000	Glove/CMakeFiles/Glove.dir/src/Core/Core.cpp.obj	91446d9b025e611
+207	5226	7560112420000000	Glove/CMakeFiles/Glove.dir/src/Core/Logger/Log.cpp.obj	c1192c7682a7f430
+164	6408	7560112420000000	Glove/CMakeFiles/Glove.dir/src/Core/CLITerminal/CLI.cpp.obj	3791b1f21f5e6881
+6416	20767	7560112480000000	Glove/Glove.exe	3a9c96cdd023c55
+38	98	7560113300000000	D:/dev/Glove/out/build/x64-debug/CMakeFiles/cmake.verify_globs	af4a4a7c8440e4d8
+174	4950	7560113300000000	Glove/CMakeFiles/Glove.dir/src/Core/Logger/Log.cpp.obj	c1192c7682a7f430
+151	4964	7560113300000000	Glove/CMakeFiles/Glove.dir/src/Core/Core.cpp.obj	91446d9b025e611
+41	84	7560114200000000	D:/dev/Glove/out/build/x64-debug/CMakeFiles/cmake.verify_globs	af4a4a7c8440e4d8
+204	5546	7560114200000000	Glove/CMakeFiles/Glove.dir/src/Core/Core.cpp.obj	91446d9b025e611
+243	6055	7560114200000000	Glove/CMakeFiles/Glove.dir/src/Core/Logger/Log.cpp.obj	c1192c7682a7f430
+219	6069	7560114200000000	Glove/CMakeFiles/Glove.dir/src/Core/CLITerminal/CLI.cpp.obj	3791b1f21f5e6881
+6078	11332	7560114260000000	Glove/Glove.exe	3a9c96cdd023c55
+41	86	7560114480000000	D:/dev/Glove/out/build/x64-debug/CMakeFiles/cmake.verify_globs	af4a4a7c8440e4d8

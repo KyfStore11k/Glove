@@ -1,12 +1,9 @@
-﻿#include <iostream>
-#include "spdlog/spdlog.h"
+﻿#include "pch.h"
 
-int main() {
-	spdlog::set_pattern("%+");
+#include "Core/CLITerminal/CLI.h"
 
-	spdlog::info("Initial Commit!");
-
-	std::cin.get();
+int main(int argc, char** argv) {
+	CLITerminal::Init(argc, argv, false);
 
 	return 0;
 }

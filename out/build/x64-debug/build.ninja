@@ -110,9 +110,27 @@ build cmake_object_order_depends_target_Glove: phony || Glove\external\CLI11\src
 build Glove\CMakeFiles\Glove.dir\src\Core\Core.cpp.obj: CXX_COMPILER__Glove_unscanned_Debug D$:\dev\Glove\Glove\src\Core\Core.cpp || cmake_object_order_depends_target_Glove
   DEFINES = -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
-  INCLUDES = -ID:\dev\Glove\out\build\x64-debug\_deps\fast_io-src\include -ID:\dev\Glove\out\build\x64-debug\_deps\eventpp-src\include -ID:\dev\Glove\out\build\x64-debug\_deps\spdlog-src\include -ID:\dev\Glove\out\build\x64-debug\_deps\yaml-cpp-src\include -ID:\dev\Glove\out\build\x64-debug\_deps\zlib-build -ID:\dev\Glove\out\build\x64-debug\_deps\zlib-src -external:ID:\dev\Glove\Glove\external\CLI11\include -external:IC:\vcpkg\vcpkg\installed\x64-windows\include -external:W0
+  INCLUDES = -ID:\dev\Glove\out\build\x64-debug\_deps\fast_io-src\include -ID:\dev\Glove\Glove\src -ID:\dev\Glove\out\build\x64-debug\_deps\eventpp-src\include -ID:\dev\Glove\out\build\x64-debug\_deps\spdlog-src\include -ID:\dev\Glove\out\build\x64-debug\_deps\yaml-cpp-src\include -ID:\dev\Glove\out\build\x64-debug\_deps\zlib-build -ID:\dev\Glove\out\build\x64-debug\_deps\zlib-src -external:ID:\dev\Glove\Glove\external\CLI11\include -external:IC:\vcpkg\vcpkg\installed\x64-windows\include -external:W0
   OBJECT_DIR = Glove\CMakeFiles\Glove.dir
   OBJECT_FILE_DIR = Glove\CMakeFiles\Glove.dir\src\Core
+  TARGET_COMPILE_PDB = Glove\CMakeFiles\Glove.dir\
+  TARGET_PDB = Glove\Glove.pdb
+
+build Glove\CMakeFiles\Glove.dir\src\Core\CLITerminal\CLI.cpp.obj: CXX_COMPILER__Glove_unscanned_Debug D$:\dev\Glove\Glove\src\Core\CLITerminal\CLI.cpp || cmake_object_order_depends_target_Glove
+  DEFINES = -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
+  INCLUDES = -ID:\dev\Glove\out\build\x64-debug\_deps\fast_io-src\include -ID:\dev\Glove\Glove\src -ID:\dev\Glove\out\build\x64-debug\_deps\eventpp-src\include -ID:\dev\Glove\out\build\x64-debug\_deps\spdlog-src\include -ID:\dev\Glove\out\build\x64-debug\_deps\yaml-cpp-src\include -ID:\dev\Glove\out\build\x64-debug\_deps\zlib-build -ID:\dev\Glove\out\build\x64-debug\_deps\zlib-src -external:ID:\dev\Glove\Glove\external\CLI11\include -external:IC:\vcpkg\vcpkg\installed\x64-windows\include -external:W0
+  OBJECT_DIR = Glove\CMakeFiles\Glove.dir
+  OBJECT_FILE_DIR = Glove\CMakeFiles\Glove.dir\src\Core\CLITerminal
+  TARGET_COMPILE_PDB = Glove\CMakeFiles\Glove.dir\
+  TARGET_PDB = Glove\Glove.pdb
+
+build Glove\CMakeFiles\Glove.dir\src\Core\Logger\Log.cpp.obj: CXX_COMPILER__Glove_unscanned_Debug D$:\dev\Glove\Glove\src\Core\Logger\Log.cpp || cmake_object_order_depends_target_Glove
+  DEFINES = -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
+  INCLUDES = -ID:\dev\Glove\out\build\x64-debug\_deps\fast_io-src\include -ID:\dev\Glove\Glove\src -ID:\dev\Glove\out\build\x64-debug\_deps\eventpp-src\include -ID:\dev\Glove\out\build\x64-debug\_deps\spdlog-src\include -ID:\dev\Glove\out\build\x64-debug\_deps\yaml-cpp-src\include -ID:\dev\Glove\out\build\x64-debug\_deps\zlib-build -ID:\dev\Glove\out\build\x64-debug\_deps\zlib-src -external:ID:\dev\Glove\Glove\external\CLI11\include -external:IC:\vcpkg\vcpkg\installed\x64-windows\include -external:W0
+  OBJECT_DIR = Glove\CMakeFiles\Glove.dir
+  OBJECT_FILE_DIR = Glove\CMakeFiles\Glove.dir\src\Core\Logger
   TARGET_COMPILE_PDB = Glove\CMakeFiles\Glove.dir\
   TARGET_PDB = Glove\Glove.pdb
 
@@ -124,7 +142,7 @@ build Glove\CMakeFiles\Glove.dir\src\Core\Core.cpp.obj: CXX_COMPILER__Glove_unsc
 #############################################
 # Link the executable Glove\Glove.exe
 
-build Glove\Glove.exe: CXX_EXECUTABLE_LINKER__Glove_Debug Glove\CMakeFiles\Glove.dir\src\Core\Core.cpp.obj | _deps\spdlog-build\spdlogd.lib _deps\yaml-cpp-build\yaml-cppd.lib _deps\zlib-build\zlibstaticd.lib C$:\vcpkg\vcpkg\installed\x64-windows\debug\lib\libcurl-d.lib || Glove\external\CLI11\src\CLI11 _deps\spdlog-build\spdlogd.lib _deps\yaml-cpp-build\yaml-cppd.lib _deps\zlib-build\zlibstaticd.lib
+build Glove\Glove.exe: CXX_EXECUTABLE_LINKER__Glove_Debug Glove\CMakeFiles\Glove.dir\src\Core\Core.cpp.obj Glove\CMakeFiles\Glove.dir\src\Core\CLITerminal\CLI.cpp.obj Glove\CMakeFiles\Glove.dir\src\Core\Logger\Log.cpp.obj | _deps\spdlog-build\spdlogd.lib _deps\yaml-cpp-build\yaml-cppd.lib _deps\zlib-build\zlibstaticd.lib C$:\vcpkg\vcpkg\installed\x64-windows\debug\lib\libcurl-d.lib || Glove\external\CLI11\src\CLI11 _deps\spdlog-build\spdlogd.lib _deps\yaml-cpp-build\yaml-cppd.lib _deps\zlib-build\zlibstaticd.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = _deps\spdlog-build\spdlogd.lib  _deps\yaml-cpp-build\yaml-cppd.lib  _deps\zlib-build\zlibstaticd.lib  C:\vcpkg\vcpkg\installed\x64-windows\debug\lib\libcurl-d.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
