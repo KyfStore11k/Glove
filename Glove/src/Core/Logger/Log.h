@@ -7,9 +7,12 @@ namespace Log {
 
 	class Logger {
 	public:
-		void Init();
+		void Init(bool debug);
 		void RefreshPattern();
 		void SetPattern(const std::string& str);
+		void SetFileLog(const std::string& filePath);
+		void RemoveFileLogConfig();
+		void GetFileLogCoExist(const std::string& filePath);
 
 		class LogSystem {
 		public:
